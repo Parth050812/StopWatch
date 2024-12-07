@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(166, 166, 166);
+}
+
+#hi{
+    font-family: 'verdana';
+    font-size: 4rem;
+}
+
+#con{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#d{
+    font-family: monospace;
+    font-size: 5rem;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    text-shadow: 2px 2px 2px;
+    margin-bottom: 25px;
+}
+
+#b button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: verdana;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+#sar{
+    background-color: hsl(120, 100%, 40%);
+}
+#sar:hover{
+    background-color: hsl(120, 100%, 30%);
+}
+#st{
+    background-color: hsl(0, 100%, 50%);
+}
+#st:hover{
+    background-color: hsl(0, 100%, 40%);
+}
+#res{
+    background-color: hsl(195, 53%, 80%);
+}
+#res:hover{
+    background-color: hsl(195, 53%, 70%);
+}
